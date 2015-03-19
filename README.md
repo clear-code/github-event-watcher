@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/clear-code/github-event-watcher.svg?branch=master)](https://travis-ci.org/clear-code/github-event-watcher)
+
 # README
 
 ## Name
