@@ -1,4 +1,4 @@
-# Copyright (C) 2014  Kouhei Sutou <kou@clear-code.com>
+# Copyright (C) 2014-2015  Kouhei Sutou <kou@clear-code.com>
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -73,7 +73,7 @@ module GitHubEventWatcher
           Event.new(event)
         end
       end
-    rescue SystemCallError, Timeout::Error
+    rescue OpenURI::HTTPError, SystemCallError, Timeout::Error
       tag = "[watcher][watch][#{name}][fetch]"
       @logger.error("#{tag} Failed to fetch: #{$!.class}: #{$!.message}")
       []
