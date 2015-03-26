@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["kou@clear-code.com"]
   spec.summary       = %q{GitHub event watcher}
   spec.description   = %q{GitHub event watcher}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/clear-code/github-event-watcher"
   spec.license       = "GPL-3.0+"
 
   spec.files         = `git ls-files -z`.split("\x0")
