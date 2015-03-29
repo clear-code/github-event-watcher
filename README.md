@@ -1,12 +1,6 @@
 [![Build Status](https://travis-ci.org/clear-code/github-event-watcher.svg?branch=master)](https://travis-ci.org/clear-code/github-event-watcher)
 
-# README
-
-## Name
-
-github-event-watcher
-
-## Description
+# GitHubEventWatcher
 
 This package is for developers who want to watch GitHub repositories
 of other people. You can't set
