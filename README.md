@@ -15,7 +15,7 @@ You can implement commit mail by using with
 
 ## Usage
 
-    % git clone https://github.com/clear-code/git-utils.git
+    % git clone https://github.com/clear-code/github-event-watcher.git
     % cd github-event-watcher
     % cp config.yaml{.example,}
     % editor config.yaml
