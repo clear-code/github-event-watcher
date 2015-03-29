@@ -11,7 +11,7 @@ This package pulls events from GitHub and sends GitHub compatible
 (subset) POST request to your Webhooks.
 
 You can implement commit mail by using with
-[GitHub POST receiver at clear-code/git-utils](https://github.com/clear-code/git-utils/tree/master/github-post-receiver).
+[GitHub webhooks receiver clear-code/github-webhooks-receiver](https://github.com/clear-code/github-web-hooks-receiver).
 
 ## Usage
 
