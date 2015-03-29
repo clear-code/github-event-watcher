@@ -27,7 +27,7 @@ You can implement commit mail by using with
       - clear-code/git-utils
       - ruby/ruby
       - rails/rails
-    webhook-end-point: http://git-utils.example.com/post-receiver/
+    webhook-end-point: http://github-web-hooks-receiver.example.com/post-receiver/
 
 List repositories by `${owner}/${name}` format into `repositories`.
 
