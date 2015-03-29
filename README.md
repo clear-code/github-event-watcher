@@ -24,7 +24,7 @@ You can implement commit mail by using with
 `config.yaml` uses the following format:
 
     repositories:
-      - clear-code/git-utils
+      - clear-code/github-event-watcher
       - ruby/ruby
       - rails/rails
     webhook-end-point: http://github-web-hooks-receiver.example.com/post-receiver/
