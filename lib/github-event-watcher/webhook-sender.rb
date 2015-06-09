@@ -18,6 +18,8 @@ require "json"
 
 module GitHubEventWatcher
   class WebhookSender
+    READ_TIMEOUT_SECONDS = 60 * 10
+
     def initialize(end_point, logger)
       @end_point = end_point
       @logger = logger
@@ -32,6 +34,7 @@ module GitHubEventWatcher
       }
       begin
         Net::HTTP.start(@end_point.host, @end_point.port, options) do |http|
+          http.read_timeout = READ_TIMEOUT_SECONDS
           request = Net::HTTP::Post.new(@end_point.request_uri)
           request["Host"] = @end_point.hostname
           request["X-GitHub-Event"] = "push"
