@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/clear-code/github-event-watcher.svg?branch=master)](https://travis-ci.org/clear-code/github-event-watcher)
 
+This project has been moved to https://gitlab.com/clear-code/github-event-watcher .
+
 # GitHubEventWatcher
 
 This package is for developers who want to watch GitHub repositories
